@@ -1,6 +1,7 @@
 //! tests/health_check.rs
 
-use zero_to_prod_2::{run, utils::app_address};
+use zero_to_prod_2::startup::run;
+use zero_to_prod_2::utils::app_address;
 
 fn spawn_app() -> String {
     let app_address = app_address();
